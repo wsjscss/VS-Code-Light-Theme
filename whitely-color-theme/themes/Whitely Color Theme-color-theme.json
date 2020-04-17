@@ -347,8 +347,10 @@
 			}
 		},
 		{
-			"name": "Javascript: Variables declarations,  $ * + - = === > < ",
+			"name": "Javascript: Variables declarations,  $ * + - = === > < , console.log",
 			"scope": [
+				"support.class.console",
+				"support.function.console",
 				"storage.type.js",
 				"meta.var.expr.js",
 				"punctuation.definition.template-expression.begin.js",

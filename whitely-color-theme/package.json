@@ -4,6 +4,10 @@
     "description": "Light color theme",
     "version": "0.0.1",
     "publisher": "Ws",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wsjscss/VS-Code-Light-Theme"
+    },
     "engines": {
         "vscode": "^1.44.0"
     },
