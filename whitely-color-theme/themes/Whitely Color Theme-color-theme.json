@@ -179,7 +179,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#8FB0C6"
+				"foreground": "#2C3852"
 			}
 		},
 		{
@@ -342,6 +342,7 @@
 				"meta.object.member.js",
 				"variable.other.constant.js",
 				"entity.name.type",
+				"keyword.operator.logical.js"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -376,7 +377,8 @@
 				"punctuation.definition.parameters.end.js",
 				"support.function.js",
 				"support.class.builtin.js",
-				"keyword.operator.new.js"
+				"keyword.operator.new.js",
+
 			],
 			"settings": {
 				"fontStyle": "",
