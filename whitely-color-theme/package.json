@@ -1,0 +1,22 @@
+{
+    "name": "whitely-color-theme",
+    "displayName": "Whitely Color Theme",
+    "description": "Light color theme",
+    "version": "0.0.1",
+    "publisher": "Ws",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Whitely Color Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Whitely Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
