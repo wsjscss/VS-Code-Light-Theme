@@ -340,6 +340,8 @@
 			"name": "Javascript object keys",
 			"scope": [
 				"meta.object.member.js",
+				"variable.other.constant.js",
+				"entity.name.type",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -373,6 +375,8 @@
 				"punctuation.definition.parameters.begin.js",
 				"punctuation.definition.parameters.end.js",
 				"support.function.js",
+				"support.class.builtin.js",
+				"keyword.operator.new.js"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -411,11 +415,12 @@
 			}
 		},
 		{
-			"name": "Javascript: constants, variables",
+			"name": "Javascript: const, var, let",
 			"scope": [
 				"constant.language.boolean.true.js",
 				"constant.numeric.decimal.js",
 				"constant.language.null.js",
+
 			],
 			"settings": {
 				"fontStyle": "",
