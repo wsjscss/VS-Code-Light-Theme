@@ -107,7 +107,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#dadada"
+				"foreground": "#FC0A0A"
 			}
 		},
 		{
@@ -595,21 +595,37 @@
 		{
 			"name": "PHP functions",
 			"scope": [
-				"entity.name.function.php",
+				"entity.name.function",
 				"support.function.construct.begin.blade",
 				"support.function.construct.end.blade",
+				"support.function.info",
+				"support.function.string",
+				"support.function.errorfunc",
+				"support.function.funchand"
 			],
 			"settings": {
-				"foreground": "#2C3852",
+				"foreground": "#FC0A0A",
 				"fontStyle": "bold"
 			}
-		}, {
+		},
+		{
 			"name": "PHP class",
 			"scope": [
 				"support.class.php",
+				"punctuation.definition.variable.php",
 			],
 			"settings": {
 				"foreground": "#0C19D8",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "PHP numeric",
+			"scope": [
+				"constant.numeric.decimal",
+			],
+			"settings": {
+				"foreground": "#2C3852",
 				"fontStyle": "bold"
 			}
 		},
