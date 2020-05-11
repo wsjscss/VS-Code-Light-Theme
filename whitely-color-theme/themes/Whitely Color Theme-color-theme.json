@@ -5,8 +5,7 @@
     "editor.background": "#FFF",
     "editor.foreground": "#000"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
@@ -563,6 +562,21 @@
       "settings": {
         "foreground": "#2C3852",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "GoDot Classes",
+      "scope": ["support.class.library.gdscript", "entity.other.inherited-class.gdscript"],
+      "settings": {
+        "foreground": "#07ac5f",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "GoDot numbers",
+      "scope": ["constant.numeric.float.gdscript"],
+      "settings": {
+        "foreground": "#4B83CD",
       }
     }
   ]
