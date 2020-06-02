@@ -5,7 +5,8 @@
     "editor.background": "#FFF",
     "editor.foreground": "#000"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
@@ -566,7 +567,10 @@
     },
     {
       "name": "GoDot Classes",
-      "scope": ["support.class.library.gdscript", "entity.other.inherited-class.gdscript"],
+      "scope": [
+        "support.class.library.gdscript",
+        "entity.other.inherited-class.gdscript"
+      ],
       "settings": {
         "foreground": "#07ac5f",
         "fontStyle": "bold"
@@ -576,7 +580,14 @@
       "name": "GoDot numbers",
       "scope": ["constant.numeric.float.gdscript"],
       "settings": {
-        "foreground": "#4B83CD",
+        "foreground": "#4B83CD"
+      }
+    },
+    {
+      "name": "LUA",
+      "scope": ["constant.numeric.integer.lua", "constant.numeric.float.lua"],
+      "settings": {
+        "foreground": "#0C19D8"
       }
     }
   ]
