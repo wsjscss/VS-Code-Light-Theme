@@ -5,8 +5,7 @@
     "editor.background": "#FFF",
     "editor.foreground": "#000"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
@@ -116,7 +115,7 @@
       "name": "Numbers, Characters",
       "scope": ["constant.numeric", "constant.character", "constant"],
       "settings": {
-        "foreground": "#dadada"
+        "foreground": "#0C19D8"
       }
     },
     {
