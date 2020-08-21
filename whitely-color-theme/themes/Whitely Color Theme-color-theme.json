@@ -204,6 +204,13 @@
       }
     },
     {
+      "name": "HTML: Component Tag",
+      "scope": ["support.class.component.html"],
+      "settings": {
+        "foreground": "#0C19D8"
+      }
+    },
+    {
       "name": "HTML: Entities",
       "scope": ["constant.character.entity"],
       "settings": {
