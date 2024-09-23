@@ -5,9 +5,13 @@
     "editor.background": "#FFF",
     "editor.foreground": "#000"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#a9b7c0"
@@ -23,7 +27,10 @@
     },
     {
       "name": "Comments: Documentation",
-      "scope": ["comment.documentation", "comment.block.documentation"],
+      "scope": [
+        "comment.documentation",
+        "comment.block.documentation"
+      ],
       "settings": {
         "foreground": "#a9b7c0"
       }
@@ -44,42 +51,61 @@
     },
     {
       "name": "Keywords",
-      "scope": ["keyword", "storage"],
+      "scope": [
+        "keyword",
+        "storage"
+      ],
       "settings": {
         "foreground": "#2C3852"
       }
     },
     {
       "name": "Types",
-      "scope": ["storage.type", "support.type"],
+      "scope": [
+        "storage.type",
+        "support.type"
+      ],
       "settings": {
         "foreground": "#7A3E9D"
       }
     },
     {
       "name": "Language Constants",
-      "scope": ["constant.language", "support.constant", "variable.language"],
+      "scope": [
+        "constant.language",
+        "support.constant",
+        "variable.language"
+      ],
       "settings": {
         "foreground": "#0C19D8"
       }
     },
     {
       "name": "Language Constants methods",
-      "scope": ["support.function.math.js", "support.function.json.js"],
+      "scope": [
+        "support.function.math.js",
+        "support.function.json.js"
+      ],
       "settings": {
         "foreground": "#7a82f7"
       }
     },
     {
       "name": "Variables",
-      "scope": ["variable", "support.variable"],
+      "scope": [
+        "variable",
+        "support.variable"
+      ],
       "settings": {
         "foreground": "#0c19d8"
       }
     },
     {
       "name": "Functions",
-      "scope": ["entity.name.function", "support.function"],
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#FC0A0A"
@@ -113,7 +139,11 @@
     },
     {
       "name": "Numbers, Characters",
-      "scope": ["constant.numeric", "constant.character", "constant"],
+      "scope": [
+        "constant.numeric",
+        "constant.character",
+        "constant"
+      ],
       "settings": {
         "foreground": "#0C19D8"
       }
@@ -198,35 +228,45 @@
     },
     {
       "name": "HTML: Text",
-      "scope": ["text.html.vue-html"],
+      "scope": [
+        "text.html.vue-html"
+      ],
       "settings": {
         "foreground": "#2C3852"
       }
     },
     {
       "name": "HTML: Component Tag",
-      "scope": ["support.class.component.html"],
+      "scope": [
+        "support.class.component.html"
+      ],
       "settings": {
         "foreground": "#0C19D8"
       }
     },
     {
       "name": "HTML: Entities",
-      "scope": ["constant.character.entity"],
+      "scope": [
+        "constant.character.entity"
+      ],
       "settings": {
         "foreground": "#dadada"
       }
     },
     {
       "name": "HTML: Text quoted",
-      "scope": ["string.quoted.double.html"],
+      "scope": [
+        "string.quoted.double.html"
+      ],
       "settings": {
         "foreground": "#0C19D8"
       }
     },
     {
       "name": "HTML: Invalid/Custom tag",
-      "scope": ["invalid.illegal.unrecognized-tag.html"],
+      "scope": [
+        "invalid.illegal.unrecognized-tag.html"
+      ],
       "settings": {
         "foreground": "#0C19D8"
       }
@@ -286,7 +326,9 @@
     },
     {
       "name": "CSS: Functions",
-      "scope": ["support.function.misc"],
+      "scope": [
+        "support.function.misc"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#00C531"
@@ -294,10 +336,35 @@
     },
     {
       "name": "Vue",
-      "scope": ["source.vue"],
+      "scope": [
+        "source.vue"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#dadada"
+      }
+    },
+    {
+      "name": "React Component",
+      "scope": [
+        "entity.name.tag.tsx",
+        "support.class.component.tsx",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#222222"
+      }
+    },
+    {
+      "name": "React Component Text",
+      "scope": [
+        "meta.jsx.children.tsx",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#11acbd"
       }
     },
     {
@@ -352,7 +419,9 @@
     },
     {
       "name": "Javascript: meta operator ?, :, ",
-      "scope": ["keyword.operator.ternary.js"],
+      "scope": [
+        "keyword.operator.ternary.js"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#FC0A0A"
@@ -360,7 +429,9 @@
     },
     {
       "name": "Javascript: Arrow function sign",
-      "scope": ["storage.type.function.arrow.js"],
+      "scope": [
+        "storage.type.function.arrow.js"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#dadada"
@@ -368,7 +439,10 @@
     },
     {
       "name": "Javascript: export, return",
-      "scope": ["keyword.control.flow.js", "meta.block.js"],
+      "scope": [
+        "keyword.control.flow.js",
+        "meta.block.js"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#000000"
@@ -388,7 +462,9 @@
     },
     {
       "name": "Javascript: this",
-      "scope": ["variable.language.this.js"],
+      "scope": [
+        "variable.language.this.js"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#FC0A0A"
@@ -449,7 +525,10 @@
     },
     {
       "name": "Markup: Output",
-      "scope": ["markup.output", "markup.raw"],
+      "scope": [
+        "markup.output",
+        "markup.raw"
+      ],
       "settings": {
         "foreground": "#777777"
       }
@@ -505,7 +584,10 @@
     },
     {
       "name": "Markup Styling",
-      "scope": ["markup.bold", "markup.italic"],
+      "scope": [
+        "markup.bold",
+        "markup.italic"
+      ],
       "settings": {
         "foreground": "#448C27"
       }
@@ -520,7 +602,11 @@
     },
     {
       "name": "Extra: Diff Range",
-      "scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
+      "scope": [
+        "meta.diff.range",
+        "meta.diff.index",
+        "meta.separator"
+      ],
       "settings": {
         "foreground": "#434343"
       }
@@ -557,7 +643,10 @@
     },
     {
       "name": "PHP class",
-      "scope": ["support.class.php", "punctuation.definition.variable.php"],
+      "scope": [
+        "support.class.php",
+        "punctuation.definition.variable.php"
+      ],
       "settings": {
         "foreground": "#0C19D8",
         "fontStyle": "bold"
@@ -565,35 +654,12 @@
     },
     {
       "name": "PHP numeric",
-      "scope": ["constant.numeric.decimal"],
+      "scope": [
+        "constant.numeric.decimal"
+      ],
       "settings": {
         "foreground": "#2C3852",
         "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "GoDot Classes",
-      "scope": [
-        "support.class.library.gdscript",
-        "entity.other.inherited-class.gdscript"
-      ],
-      "settings": {
-        "foreground": "#07ac5f",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "GoDot numbers",
-      "scope": ["constant.numeric.float.gdscript"],
-      "settings": {
-        "foreground": "#4B83CD"
-      }
-    },
-    {
-      "name": "LUA",
-      "scope": ["constant.numeric.integer.lua", "constant.numeric.float.lua"],
-      "settings": {
-        "foreground": "#0C19D8"
       }
     }
   ]

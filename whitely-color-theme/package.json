@@ -1,15 +1,15 @@
 {
     "name": "whitely-color-theme",
     "displayName": "Whitely Color Theme",
-    "description": "Light color theme",
-    "version": "0.4.0",
+    "description": "Brilliant Light Color Theme",
+    "version": "0.5.0",
     "publisher": "Ws",
     "repository": {
         "type": "git",
         "url": "https://github.com/wsjscss/VS-Code-Light-Theme"
     },
     "engines": {
-        "vscode": "^1.44.0"
+        "vscode": "^1.88.0"
     },
     "categories": [
         "Themes"
@@ -19,7 +19,7 @@
             {
                 "label": "Whitely Color Theme",
                 "uiTheme": "vs",
-                "path": "./themes/Whitely Color Theme-color-theme.json"
+                "path": "./themes/whitely-color-theme.json"
             }
         ]
     }
