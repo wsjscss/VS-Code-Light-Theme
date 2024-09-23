@@ -4,18 +4,18 @@
 
 ### React
 
-![React](./assets/javascript.jpg)
+![React](./whitely-color-theme/assets/javascript.jpg)
 
 ### Vue
 
-![Vue](./assets/vue.jpg)
+![Vue](./whitely-color-theme//assets/vue.jpg)
 
 ### JavaScript
 
-![JavaScript](./assets/javascript.jpg)
+![JavaScript](./whitely-color-theme//assets/javascript.jpg)
 
 ### CSS
 
-![CSS](./assets/css.jpg)
+![CSS](./whitely-color-theme//assets/css.jpg)
 
 **Enjoy!**
