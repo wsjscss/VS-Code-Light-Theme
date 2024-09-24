@@ -4,7 +4,7 @@
 
 ### React
 
-![React](/whitely-color-theme/assets/javascript.jpg)
+![React](/whitely-color-theme/assets/react.jpg)
 
 ### Vue
 
